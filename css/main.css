@@ -223,13 +223,20 @@ body {
     left: 1vw;
   }
   .main-title {
-    bottom: 44vh;
+    bottom: 0vh;
   }
   .gallery {
+    padding-top: 0px;
     flex-direction: column;
   }
   .gallery__left {
     order: 1;
+  }
+  :root {
+    --gallery-gap: calc(var(--index) * 3.5);
+  }
+  .main-header {
+    height: 304px;
   }
 }
 
