@@ -227,7 +227,7 @@ body {
     bottom: 0vh;
   }
   .gallery {
-    padding-top: 0px;
+    padding-top: 220px;
     flex-direction: column;
   }
   .gallery__left {
